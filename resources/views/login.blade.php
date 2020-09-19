@@ -81,29 +81,24 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Авторизация
                 </div>
-
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <h1>Привет {{$name ?? 'unknown'}}</h1>
+                    <div class="error" style="color: #636b6f; font-size: 16px">{{$errorMessage ?? ''}}</div><br>
+                    <form method="post" action="#">
+                        @csrf
+                        <input type="text" name="login" placeholder="Login"><br>
+                        <input type="password" name="password" placeholder="Password"><br><br>
+                        <input type="submit" name="go" value="Поехали">
+                    </form>
+                </div>
+                <br>
+                <div class="links">
+                    <a href="http://good_laravel.com/">На главную</a>
                 </div>
                 <br>
                 <br>
-                <div class="title m-b-md">
-                    Other links
-                </div>
-                <div class="links">
-                    <a href="http://good_laravel.com/about/">Про блог</a>
-                    <a href="http://good_laravel.com/main_blog/">Зайти на блог</a>
-                    <a href="http://good_laravel.com/login/">Авторизация</a>
-                </div>
             </div>
         </div>
     </body>

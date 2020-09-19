@@ -65,44 +65,13 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <h6>404 | Page not found!</h6>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-                <br>
-                <br>
-                <div class="title m-b-md">
-                    Other links
-                </div>
-                <div class="links">
-                    <a href="http://good_laravel.com/about/">Про блог</a>
-                    <a href="http://good_laravel.com/main_blog/">Зайти на блог</a>
-                    <a href="http://good_laravel.com/login/">Авторизация</a>
+                    <a href="http://good_laravel.com//">Back to main page</a>
                 </div>
             </div>
         </div>

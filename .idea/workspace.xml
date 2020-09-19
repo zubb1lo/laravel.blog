@@ -4,6 +4,9 @@
     <list default="true" id="aae803be-dd7d-4231-94e1-ac29b43d5cee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,11 +129,19 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1g8j4kPsOmSQk0xrRujKnXGydyj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\good_laravel.com\resources\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,7 +177,15 @@
       <workItem from="1597695264743" duration="834000" />
       <workItem from="1597768795543" duration="627000" />
       <workItem from="1597769449209" duration="750000" />
-      <workItem from="1598180503081" duration="5445000" />
+      <workItem from="1598180503081" duration="6460000" />
+      <workItem from="1599398095563" duration="4628000" />
+      <workItem from="1599494995403" duration="7000" />
+      <workItem from="1599900411573" duration="3087000" />
+      <workItem from="1599922971580" duration="6048000" />
+      <workItem from="1599932787645" duration="92000" />
+      <workItem from="1599987472482" duration="7232000" />
+      <workItem from="1600007007387" duration="2503000" />
+      <workItem from="1600505990309" duration="621000" />
     </task>
     <servers />
   </component>
@@ -178,7 +197,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

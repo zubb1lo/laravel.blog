@@ -65,7 +65,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
+           <?php /* @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
@@ -78,10 +78,11 @@
                     @endauth
                 </div>
             @endif
-
+            */
+           ?>
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    This is test page
                 </div>
 
                 <div class="links">
@@ -93,16 +94,6 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-                <br>
-                <br>
-                <div class="title m-b-md">
-                    Other links
-                </div>
-                <div class="links">
-                    <a href="http://good_laravel.com/about/">Про блог</a>
-                    <a href="http://good_laravel.com/main_blog/">Зайти на блог</a>
-                    <a href="http://good_laravel.com/login/">Авторизация</a>
                 </div>
             </div>
         </div>
